@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  background: linear-gradient(135deg, #fff1f5, #f7faff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #444;
+}
+
+.container {
+  background: #ffffff;
+  width: 820px;
+  max-width: 95%;
+  padding: 45px;
+  border-radius: 28px;
+  box-shadow: 0 18px 45px rgba(0,0,0,0.08);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 6px;
+  font-weight: 700;
+  color: #2f2f2f;
+  letter-spacing: 0.5px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 13px;
+  color: #9aa0a6;
+  margin-bottom: 38px;
+}
+
+.search-box {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+input {
+  flex: 1;
+  padding: 15px 22px;
+  font-size: 15px;
+  border-radius: 18px;
+  border: 1px solid #f1cfd9;
+  outline: none;
+  background: #fffafc;
+}
+
+input::placeholder {
+  color: #c5a3af;
+}
+
+button {
+  padding: 15px 34px;
+  font-size: 15px;
+  border-radius: 18px;
+  border: none;
+  background: linear-gradient(135deg, #ff9aa2, #ffb7c5);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(255,154,162,0.35);
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(255,154,162,0.45);
+}
+
+.result-card {
+  background: #fff6f9;
+  border-radius: 24px;
+  padding: 35px;
+  display: none;
+}
+
+.band-header {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.band-header img {
+  width: 150px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.band-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.info-row {
+  margin-bottom: 14px;
+  line-height: 1.8;
+}
+
+.label {
+  color: #ff8fa3;
+  font-weight: 600;
+}
+
+.footer-note {
+  margin-top: 32px;
+  font-size: 12px;
+  color: #b7a1aa;
+  text-align: center;
+}
