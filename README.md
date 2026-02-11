@@ -65,10 +65,13 @@ Ontologi utama yang digunakan:
 ## 📸 Dokumentasi Aplikasi
 ### Landing Page
 <img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/64161142-1541-4f5a-a0ec-a86d5cc810d6" />
+
 ### Pencarian Band Coldplay
 <img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/cba8079a-221a-4367-b7e8-08f09000e783" />
+
 ### Pencarian Band Linkin Park
 <img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/53197a1c-4f61-4475-8085-80351be3801e" />
+
 ### Pencarian Band Queen 
 <img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/c0648e34-21f1-460f-8bc3-0742283f659c" />
 
